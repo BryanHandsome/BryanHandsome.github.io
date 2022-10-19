@@ -21,7 +21,7 @@ body{
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #003147;
+    background-color: #182747;
 }
 .right-section{
     grid-column: span 5;
@@ -50,7 +50,7 @@ body{
 }
 
 .name{
-    font-size: 15px;
+    font-size: 13px;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -59,7 +59,7 @@ body{
 }
 
 .career{
-    font-size: 18px;
+    font-size: 13px;
     color: #94D9EA;
     text-align: center;
     text-transform: uppercase;
@@ -68,7 +68,7 @@ body{
 }
 
 .main-title{
-    font-size: 15px;
+    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #f7f7f7ec;
@@ -89,7 +89,7 @@ body{
 }
 .contact-info ul li i{
     padding-right: 1rem;
-    font-size: 1.2rem;
+    font-size: 10px;
     color: #2D9CDB;
 }
 
@@ -139,7 +139,7 @@ body{
 .skill-title{
     text-transform: uppercase;
     color: #f7f7f7;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .sub-title{
@@ -169,16 +169,26 @@ body{
     color: #f7f7f7;
     font-size: 13px;
 }
+.signature{
+    color: white;
+}
+.signature h3{
+    font-size: 15px;
+    padding-top: 430px;
+}
+.signature h4{
+    color: whitesmoke;
+}
+
 
 .right-main-content{
     padding: 2rem 3rem;
 }
 
-
 .right-title{
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #2F80ED;
+    color: #00ABB3;
     margin-bottom: 1.2rem;
     position: relative;
     font-size: 18px;
@@ -200,6 +210,8 @@ body{
     line-height: 1.6rem;
     color:  #313d50;
     font-size: 15px;
+    border-style: outset;
+    border-width: 5px;
 }
 .para i{
     color: #2D9CDB;
@@ -237,11 +249,18 @@ body{
     position: absolute;
     width: .7rem;
     height: .7rem;
-    background-color: #2D9CDB;
+    background-color: grey;
     border-radius: 50%;
     transform: translateX(-50%);
     left: 0;
 }
+.timeline .left-tl-content .para{
+    border-style: initial;
+    background-color: #0c0a0a;
+   border-bottom-right-radius: 20px;
+
+}
+
 
 /*Media Querries*/
 @media screen and (max-width:823px){
@@ -285,3 +304,4 @@ body{
         font-size: 1.5rem;
     }
 }
+
